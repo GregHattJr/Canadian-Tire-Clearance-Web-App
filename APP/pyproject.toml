@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "Canadian Tire Clearance App"
+version = "0.1.0"
+
+description = "Canadian Tire Clearance App"
+authors = ["Kristian Rafuse <kristian.rafuse@gmail.com>, Greg Hatt <ghattjr@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+flask = "^2.3.3"
+sqlalchemy = "^2.0.21"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
